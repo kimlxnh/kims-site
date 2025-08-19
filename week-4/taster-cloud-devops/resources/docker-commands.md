@@ -74,8 +74,13 @@ Runs an instance of the image limited its resources to 512mb of memory of 50% of
 
 ## Building Docker Images
 
-- `docker -t <your-username>/hello-world-nodejs:0.0.1.RELEASE .`
+- `docker build -t <your-username>/hello-world-nodejs:0.0.1.RELEASE .`
 Builds an image based on a **Dockerfile** in the same location as the command is being executed with a specific name and tag.
+
+### Building Docker Images for specific Platform
+You can find your host architecture by running: `uname -m` via the CLI or Git Bash
+- `docker build --platform linux/amd64 -t <your-username>/hello-world-nodejs:0.0.1.RELEASE .`
+- `docker build --platform linux/arm64 -t <your-username>/hello-world-nodejs:0.0.1.RELEASE .`
 
 ## Dockerfile
 
