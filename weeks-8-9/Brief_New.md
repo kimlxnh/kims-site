@@ -1,4 +1,4 @@
-## Weeks 8-9 - Multidisciplinary Project - Huang
+## Weeks 8-9 - Multidisciplinary Project
 
 You will be working in teams to identify, design and implement a tech solution.
 
