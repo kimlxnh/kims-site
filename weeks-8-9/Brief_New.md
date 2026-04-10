@@ -70,16 +70,16 @@ _See [Requirements & Guidelines > Presentation Requirements](#requirements--guid
 ## Timeline Touchpoints
 
 ### Week 1
-| | Monday | Tuesday | Friday |
-| -- | -- | -- | -- |
-| AM | Pitches _(see <a href="#requirements--guidelines">Requirements & Guidance > Pitch Requirements</a>)_ | Start Development | |
-| PM | Finalise Business Case | | Full team retro |
+|    | Monday                                                                                               | Tuesday           | Friday          |
+|----|------------------------------------------------------------------------------------------------------|-------------------|-----------------|
+| AM | Pitches _(see <a href="#requirements--guidelines">Requirements & Guidance > Pitch Requirements</a>)_ | Start Development | Development     |
+| PM | Finalise Business Case                                                                               | Development       | Full team retro |
 
-### Week 2
-| | Wednesday | Thursday | Friday |
-| -- | -- | -- | -- | 
-| AM | | Halt code & merge to main + 1st Dry Runs | 2nd Dry Runs |
-| PM | Feature Freeze* | Implement 1st Dry Run feedback | Presentations _(see <a href="#requirements--guidelines">Requirements & Guidance > Presentation Requirements</a>)_ |
+### Week 2 - Normal Development until Wednesday
+|    | Wednesday       | Thursday                                 | Friday                                                                                                            |
+|----|-----------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| AM | Development     | Halt code & merge to main + 1st Dry Runs | 2nd Dry Runs                                                                                                      |
+| PM | Feature Freeze* | Implement 1st Dry Run feedback           | Presentations _(see <a href="#requirements--guidelines">Requirements & Guidance > Presentation Requirements</a>)_ |
 
 * <sub><i>This means that no new feature can be started after this time. Existing features can be finished, refactored or fixed.</sub></i></p>
 
@@ -98,10 +98,12 @@ _See [Requirements & Guidelines > Presentation Requirements](#requirements--guid
 - Your repos should have excellent READMEs. See our [Writing READMEs guide](https://github.com/getfutureproof/fp_guides_wiki/wiki/Writing-READMEs) for details.
 - Your work should make good use of the concepts we have covered on the course. This **includes** concepts from Deep-Dives:
 	
-	| Deep-Dive | Concepts |
-	| -- | -- | 
-	| Data | Use of Data Analytics + Visualisation Principles |
-	| C# | Implementation of underlying principles to build application |
+	| Deep-Dive                  | Concepts                                              |
+	|----------------------------|-------------------------------------------------------|
+	| Data                       | Use of Data Analytics + Visualisation Principles      |
+	| Change                     | Communicating impact and benefits to key stakeholders |
+	| Managing Agile Development | Managing and mitigating risk                          |
+
 	
 - Your app should be deployed and you should aim for test coverage of at least 80%
 
