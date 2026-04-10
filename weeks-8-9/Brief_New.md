@@ -72,8 +72,8 @@ _See [Requirements & Guidelines > Presentation Requirements](#requirements--guid
 ### Week 1
 |    | Monday                                                                                               | Tuesday           | Friday          |
 |----|------------------------------------------------------------------------------------------------------|-------------------|-----------------|
-| AM | Pitches _(see <a href="#requirements--guidelines">Requirements & Guidance > Pitch Requirements</a>)_ | Start Development | Development     |
-| PM | Finalise Business Case                                                                               | Development       | Full team retro |
+| AM | Plan Project Piches                                                                                  | Start Development | Development     |
+| PM | Pitches _(see <a href="#requirements--guidelines">Requirements & Guidance > Pitch Requirements</a>)_ | Development       | Full team retro |
 
 ### Week 2 - Normal Development until Wednesday
 |    | Wednesday       | Thursday                                 | Friday                                                                                                            |
