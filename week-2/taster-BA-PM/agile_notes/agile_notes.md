@@ -170,7 +170,7 @@ The job of the sprint is to deliver selected features from the backlog. The obje
     <img src="https://kanbanize.com/wp-content/uploads/website-images/kanban-resources/Kanban_board-elements.png" />
 </div>
 
-- **WIP Limit** - Work in Progress -> the number of tasks a team are prepared to have on the go at any one point. This is set by the Scrum Master
+- **WIP Limit** - Work in Progress -> the number of tasks a team are prepared to have on the go at any one point. This is set by the Scrum Master. _Remember, the purpose of the WIP is to ensure no-one takes too much on and to reduce bottlenecks_
 - **Column** - the stage that a particular task is at
 - **Card** - an individual task or job
 - **Swimlane** - Kanban swimlanes are horizontal lines that split a Kanban board into sections. Teams usually use them to visually separate different work types on the same board and organize homogenous tasks together
