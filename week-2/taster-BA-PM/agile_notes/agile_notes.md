@@ -88,6 +88,73 @@ This is why the **Agile Manifesto** suggests that a software team should have th
 
 ---
 
+## STAKEHOLDERS
+
+A stakeholder is a person, group or organisation with a vested interest, or stake, in the decision-making and activities of a business, organisation or project. 
+
+<img src="https://user-images.githubusercontent.com/63468223/224837332-83a719c5-3b6c-483a-8e4d-519a0d37626c.jpg">
+
+**Explain** the quadrants
+- High power / High interest
+        likely to be decision makers
+        have the biggest impact on the project success
+        need to keep these stakeholders close & manage their expectations.
+- High power / Low Interest
+        need to be kept in the loop with what is happening on the project
+        even though they may not be interested in the outcome, they yield power
+        dealt with cautiously because they could use their power in a negative way if they become unsatisfied
+- Low power / High interest
+        keep these people adequately informed
+        talk to them to ensure that no major issues are arising
+        can often be very helpful with the detail of your project 
+- Low power / Low interest
+        monitor these people, but do not spend time and energy with excessive communication
+
+---
+
+## USER STORIES
+**Definition:** User stories are concise, informal descriptions of a feature or functionality from an end-user's perspective. They typically follow the format: "As a [user], I want [goal] so that [reason]" (or As a , I want because )
+
+**Purpose:** User stories serve as placeholders for conversations between the development team and stakeholders. They capture requirements in a user-focused manner, ensuring alignment with customer needs and priorities.
+
+**Characteristics:** User stories are brief and specific, focusing on the "who," "what," and "why" of a feature. They are not detailed specifications but rather placeholders for ongoing discussions and elaboration.
+
+**INVEST Criteria:** User stories should adhere to the INVEST criteria: Independent, Negotiable, Valuable, Estimable, Small, and Testable. INVEST helps ensure that user stories are manageable, well-defined, and deliverable within a single iteration.
+
+**Acceptance Criteria:** User stories are accompanied by acceptance criteria, which define the conditions that must be met for the story to be considered complete. Acceptance criteria are written collaboratively by the development team and stakeholders, providing a clear definition of done.
+
+---
+
+## GHERKINS
+Originally intended for developers, Gherkin is a structured approach to writing behavioral tests, also called Behavior Driven Development (BDD).
+Instead of testing little bits of code, behavioral tests seek to follow true user workflow, such as signing in, or applying for a refund.
+This means a focus on how users interact with your system.
+
+Gherkins add to user stories as they givee a consistent approach for reviewing all scenarios, define the definition of Done, and provide crisp acceptance criteria.
+
+To convert a User Story to a Gherkin:
+
+  - Understand the User Story:
+      - Read and clarify the user story and its acceptance criteria.
+  - Identify Scenarios:
+      - Break down the user story into specific scenarios.
+  - Write Gherkin Syntax: Use `Given-When-Then` format to describe each scenario.
+      - Given: Describe the initial context or precondition of the scenario.
+      - When: Describe the action or event that triggers the scenario.
+      - Then: Describe the expected outcome or result of the scenario.
+   - Incorporate Acceptance Criteria:
+      - Ensure scenarios align with acceptance criteria.
+
+---
+
+## RISK
+
+<img src="https://www.alertmedia.com/wp-content/uploads/2022/01/Blog-9-Risk-Matrix-Inline-v1.jpg">
+
+The idea is to identify potential risks and mitigation strategies - the idea is **not** to get rid of risk altogether but rather is to identify them, prioritise strategies to deal with them, and minimise their impact.
+
+---
+
 ## WHAT IS SCRUM
 
 Scrum is one of the most widely used frameworks within the Agile methodology, as it provides a structured framework for managing complex projects.
