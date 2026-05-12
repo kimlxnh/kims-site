@@ -126,7 +126,7 @@ Let's have a look at the steps:
 - name: Fetch latest weather
     env:
         WEATHER_API_KEY: ${{ secrets.WEATHER_API_KEY }}
-        WEATHER_CITY:   ${{ secrets.CITY }}
+        CITY:   ${{ secrets.CITY }}
     run: node fetchWeather.js
 ```
 - `env` - your environment variables
