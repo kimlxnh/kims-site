@@ -11,5 +11,5 @@ To access a module, click on its corresponding link.
 | Module | Folder |
 | --- | --- |
 | Taster Day - Cloud & DevOps | [Link](./taster-cloud-devops) |
-| Taster Day - Data | [Link](./taster-data) |
+| Taster Day - DataOps | [Link](./taster-dataOps) |
 | Hackathon | [Link](./hackathon/) |
