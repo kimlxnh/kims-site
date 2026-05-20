@@ -173,7 +173,7 @@ _Each team will have:_
 | **Day**      | **Action** |
 | ----------- | ----------- |
 | Mon - Weds | Focus on functionality and features. |
-| Weds      | Feature Freeze (**5pm**). Feature freeze. This means that no new feature can be started. Existing features can be finished, refactored or fixed.       |
+| Weds      | Feature Freeze (**5pm**). This means that no new feature can be started. Existing features can be finished, refactored or fixed.       |
 | Thurs  | Minor fixes, styling, debugging.      |
 | Fri | Presentations (c. 3pm) and group retros. |
 
