@@ -19,7 +19,7 @@ You will be working in teams to identify, design and implement a tech solution.
 <summary><bold>Business Case</bold></summary>
 
 
-- Research a topic of your choice to form a Business Case to outline your problem and solution.
+- A topic will be given to you, you will have to form a Business Case to outline your problem and solution.
 - :bulb: _See [Variables > Problem Statement](#variables) for more guidance on choosing a topic area._
 
 
@@ -70,18 +70,16 @@ _See [Requirements & Guidelines > Presentation Requirements](#requirements--guid
 ## Timeline Touchpoints
 
 ### Week 1
-| | Tuesday | Wednesday | Friday |
-| -- | -- | -- | -- |
+|    | Monday | Tuesday  | Friday |
+| -- | ------ | -------- | ------ |
 | AM | Pitches _(see <a href="#requirements--guidelines">Requirements & Guidance > Pitch Requirements</a>)_ | Start Development | |
 | PM | Finalise Business Case | | Full team retro |
 
 ### Week 2
-| | Wednesday | Thursday | Friday |
-| -- | -- | -- | -- | 
-| AM | | Halt code & merge to main + 1st Dry Runs | 2nd Dry Runs |
-| PM | Feature Freeze<a href="#feature-freeze">***</a> | Implement 1st Dry Run feedback | Presentations _(see <a href="#requirements--guidelines">Requirements & Guidance > Presentation Requirements</a>)_ |
-
-<p id="#feature-freeze"> *** <sub><i>This means that no new feature can be started after this time. Existing features can be finished, refactored or fixed.</sub></i></p>
+|    | Wednesday | Thursday | Friday |
+| -- | --------- | -------- | ------ | 
+| AM |           | 1st Dry Runs | 2nd Dry Runs |
+| PM | **Feature Freeze** | Implement 1st Dry Run feedback | Presentations _(see <a href="#requirements--guidelines">Requirements & Guidance > Presentation Requirements</a>)_ |
 
 
 ---
@@ -96,16 +94,16 @@ _See [Requirements & Guidelines > Presentation Requirements](#requirements--guid
 
 - Use version control & work in an Agile manner!
 - Your repos should have excellent READMEs. See our [Writing READMEs guide](https://github.com/getfutureproof/fp_guides_wiki/wiki/Writing-READMEs) for details.
+- As part of the project, you must an AI component to help solve your problem. This could include asking an LLM to analyse data and recommend a solution.
 - Your work should make good use of the concepts we have covered on the course. This **includes** concepts from Deep-Dives:
 	
 	| Deep-Dive | Concepts |
-	| -- | -- | 
+	| --------- | -------- | 
 	| CDO | Containerisation using Docker + Implementation of Microservices |
 	| Change | Business Case + Agile Implementation |
 	| Data | Use of Data Analytics + Visualisation Principles |
-	| SED | Implementation of CDD to build application |
 	
-- Your app should be deployed and you should aim for test coverage of at least 80%
+- Your app should be deployed and you should aim for test coverage of at least **80%**
 
 </details></td>
 </tr>
@@ -114,7 +112,7 @@ _See [Requirements & Guidelines > Presentation Requirements](#requirements--guid
 <td><details>
 <summary>Pitch Requirements</summary>
 
-_Pitches take place on the Tuesday of Week 1._
+_Pitches take place on the Monday of Week 1._
 
 - Put together your own brief as a document of what you are working towards. This should include:
     - Problem Statement & solution
@@ -125,11 +123,15 @@ _Pitches take place on the Tuesday of Week 1._
     - Stretch Goals _(Could haves)_ 
     - Technologies 
  
-- Prepare a 5-8 minute pitch presentation covering the topics in your brief.
+- Prepare a **5 minute** pitch presentation covering the topics in your brief.
     - This will be presented to your trainers only, not the full cohort.
     - It is strongly encouraged to also use tools to illustrate your ideas (wireframes, database schemas, etc.).
 
-- You may be asked to revise the plan slightly to fit the timescale but otherwise will receive sign-off following the pitch.
+- Your pitch can be:
+	- Accepted
+	- Accepted with amendments
+	- Rejected
+> We ask that you have a slightly shorter second pitch in case your first one is fully rejected!
 
 </details></td>
 </tr>
@@ -138,7 +140,7 @@ _Pitches take place on the Tuesday of Week 1._
 <td><details>
 <summary>Presentation Requirements</summary>
 
-Prepare a 10-12 minute presentation to include the following topics.
+Prepare a **10 minute presentation** to include the following topics.
 
 > :exclamation: You are unlikely to have time to include all the recommended details in the presentation but be prepared to take further questions on these topics.
 
@@ -212,7 +214,7 @@ Prepare a 10-12 minute presentation to include the following topics.
 <td><details>
 <summary>Tools & Technologies</summary>
 
-- Show us the key tools & technologies that went into your solution, particularly those that are pertinent to your Deep Dives.
+- Show us the key tools & technologies that went into your solution.
 - Don't be exhaustive or redundant. This is not an exact science but use good judgement eg.
     + :white-check-mark: Nodejs
     + :white-check-mark: Nodejs, ExpressJS
@@ -303,7 +305,7 @@ There are some specifics [_("Constants")_](#constants) however, so start with th
 <td><details>
 <summary>Time</summary>
 
-_This is a 2 -week project with certain dictated touchpoints across that period. Take time to take in the AM/PM [Timeline Touchpoints](#timeline-touchpoints) below. Exact times will be shared by your trainers as appropriate. Please do reach out to them if you're not sure on anything related to the timeline._
+_This is a 2-week project with certain dictated touchpoints across that period. Take time to take in the AM/PM [Timeline Touchpoints](#timeline-touchpoints) below. Exact times will be shared by your trainers as appropriate. Please do reach out to them if you're not sure on anything related to the timeline._
 
 </details></td>
 </tr>
@@ -314,7 +316,7 @@ _This is a 2 -week project with certain dictated touchpoints across that period.
 <td><details>
 <summary>Team</summary>
 
-_You will be working in teams of 4-6 people, assigned by your trainers._
+_You will be working in teams of 4-5 people, assigned by your trainers._
 
 </details></td>
 </tr>
@@ -330,7 +332,7 @@ _Each team will have:_
 <tr>
 
 <td><details>
-<summary><i>A daily stand-up (except Fridays & weekend)</i></summary>
+<summary><i>A daily stand-up (except Thursday & Friday of week 2 & weekend)</i></summary>
 
 - Times selected from trainer-provided options.
 - Teams & trainers commit to:
@@ -338,8 +340,7 @@ _Each team will have:_
     - clearly communicating any absolutely essential absence from stand-up to all team members & trainers.
 - At least one of your trainers will attend and share any important updates/feedback.
 - Checkout [Agility's guide to daily stand-ups](https://agility.im/frequent-agile-question/what-is-a-daily-stand-up/) for a refresher/inspiration on how to run an effective stand-up.
-- Your attending trainer **is not your Scrum Master**! Please facilitate these stand-ups yourselves!
-- It's not required but most trainers usually like to be invited to join in so if time allows, do popcorn over to them as well!
+- Your attending trainer **is your Stakeholder**! Please facilitate these stand-ups yourselves!
 
 </details></td>
 </tr>
@@ -365,11 +366,10 @@ _On Friday each team will have:_
 <td><details>
 <summary><i>Retro</i></summary>
 
-- Times selected from trainer.
-- At least one of your trainers will attend to facilitate.
+- Usually at the end of the day.
 - One member of the team (if there's a project mananger, then the project manager) will need to download and create a copy of this [file](https://lafosseassociatesltd-my.sharepoint.com/:p:/g/personal/emile_sherrott_lafosse_com/EaQkddmaTGBKi0rYpPzLnuEBKUhDzOwbbh8zm5ouyu71Rw?e=dZ1Pjh) on the Friday morning.
 - Then edit to add the teams feedback into the four quadrants. 
-- The project manager will need to show this to the trainer for a reflection on the notes.
+- The project manager will need to share this on their slack chanel so the trainers can see it, and for a reflection on the notes.
 - **Note: This feedback needs to collected about the dynamic of the team. Individual feedback is mostly discussed in a Sprint Review**
 
 </details></td>
@@ -389,7 +389,7 @@ _On Friday each team will have:_
 <td><details>
 <summary>Presentation Preparation</summary>
 
-Each team will have 2 'dry runs' before the final 'demo day' event. Please read these preparation guidelines:
+Each team will have 2 'dry runs' before the final 'Presentation' event. Please read these preparation guidelines:
 
 <table>
 <tr>
@@ -436,12 +436,9 @@ Each team will have 2 'dry runs' before the final 'demo day' event. Please read 
 
 - Preparation Requirements:
 	- Materials to be shared with trainers at least 1 hour in advance: 
-		- Slide deck
-		- Cue sheet
-		- Demo recording _(Please provide separately, even if you have embedded it into your deck)_
+		- Slide deck with Demo recording embedded in it.
 	- _NB: Materials should be submitted as complete. Small adjustments can be made after 2nd dry run but we aim to keep them to a minimum!)_
 - An Academy staff member will share their screen and run the slide deck. _(Likely one of your trainers)_
-	- This is their rehearsal as well as yours so make sure you practice giving the cues that are in your cue sheet!
 - Run the presentation as if in the 'real thing'.
 	- That means professional delivery mode - if you wouldn't do it when presenting to a client, don't do it in your dry run!
 	- The Academy staff member running the deck may pause to clarify a significantly problematic cue or technical requirement but will aim to follow you through any mishaps and save questions/clarifications for after the run.
@@ -459,9 +456,9 @@ Each team will have 2 'dry runs' before the final 'demo day' event. Please read 
 
 
 <td><details>
-<summary>Demo Day Event (Presentations!)</summary>
+<summary>Final Day Event (Presentations!)</summary>
 
-This project's presentations will be delivered as the main event in your cohort's Demo Day! The demo day is an opportunity for you and your trainers to celebrate and share your amazing progress! 
+This project's presentations will be delivered as the main event in your cohort's Presentation Day! The final day is an opportunity for you and your trainers to celebrate and share your amazing progress! 
 
 <table>
 
@@ -527,15 +524,6 @@ See [Requirements & Guidelines > Presentation Requirements](#requirements--guide
 
 <td><details>
 <summary>Business Case</summary>
-
-Coming up with an idea is hard! As humans we're pretty good at finding problems though :wink: so let's use that to our advantage!
-
-If you already have a problem you'd like to work on, please do go for it!
-For those that are less inclined to have problems on the mind _(I approve of your outlook!)_, here are some overall themes _(and example problem statements)_ that might get your brains whirring!
-- "Social justice through technology"
-- "Creative learning experiences"
-- "Life on Earth... and beyond!"
-- "Tech to destress"
 
 Remember, your Business Case will need to be supported by a range of appendices to back up your problem and solution. You can draw on as many of these as you wish. We would suggest:
 
