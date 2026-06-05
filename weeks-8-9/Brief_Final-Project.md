@@ -29,7 +29,7 @@ You will be working in teams to identify, design and implement a tech solution.
 <summary>Planning & research documents as appropriate</summary>
 
 - Examples to consider include but are not limited to: 
-  - Architecture diagram
+  - C4 Architecture diagram
   - Database schema diagram (ERD)
   - User stories
   - Wireframes
@@ -48,7 +48,7 @@ _See [Variables > MVP](#variables) for more guidance on scope._
 <summary>Supporting end-user documentation</summary>
 
 - Examples to consider include but are not limited to:
-  - Styleguide
+  - Style guide
   - API documentation
   - Getting Started guide
 - These are ideal to enhance a project README
@@ -70,10 +70,10 @@ _See [Requirements & Guidelines > Presentation Requirements](#requirements--guid
 ## Timeline Touchpoints
 
 ### Week 1
-|    | Monday | Tuesday  | Friday |
-| -- | ------ | -------- | ------ |
-| AM | Pitches _(see <a href="#requirements--guidelines">Requirements & Guidance > Pitch Requirements</a>)_ | Start Development | |
-| PM | Finalise Business Case | | Full team retro |
+|    | Monday                                                                                               | Tuesday           | Friday          |
+|----|------------------------------------------------------------------------------------------------------|-------------------|-----------------|
+| AM | Pitches _(see <a href="#requirements--guidelines">Requirements & Guidance > Pitch Requirements</a>)_ | Start Development |                 |
+| PM | Finalise Business Case                                                                               |                   | Full team retro |
 
 ### Week 2
 |    | Wednesday | Thursday | Friday |
@@ -94,14 +94,15 @@ _See [Requirements & Guidelines > Presentation Requirements](#requirements--guid
 
 - Use version control & work in an Agile manner!
 - Your repos should have excellent READMEs. See our [Writing READMEs guide](https://github.com/getfutureproof/fp_guides_wiki/wiki/Writing-READMEs) for details.
-- As part of the project, you must an AI component to help solve your problem. This could include asking an LLM to analyse data and recommend a solution.
-- Your work should make good use of the concepts we have covered on the course. This **includes** concepts from Deep-Dives:
+- As part of the project, you must include an AI component to help solve your problem. This could include asking an LLM to analyse data and recommend a solution. AI should **NOT** be used to help you develop your application
+- Your work should make good use of the concepts we have covered on the course. This **includes** concepts from Deep-Dives such as:
 	
-	| Deep-Dive | Concepts |
-	| --------- | -------- | 
-	| CDO | Containerisation using Docker + Implementation of Microservices |
-	| Change | Business Case + Agile Implementation |
-	| Data | Use of Data Analytics + Visualisation Principles |
+	| Deep-Dive            | Concepts                                                        |
+	|----------------------|-----------------------------------------------------------------|
+	| CDO                  | Containerisation using Docker + Implementation of Microservices |
+	| Change               | Business Case + Agile Implementation                            |
+	| Data                 | Use of Data Analytics + Visualisation Principles                |
+	| Software Development | User of appropriate frameworks and practices                    |
 	
 - Your app should be deployed and you should aim for test coverage of at least **80%**
 
@@ -127,10 +128,10 @@ _Pitches take place on the Monday of Week 1._
     - This will be presented to your trainers only, not the full cohort.
     - It is strongly encouraged to also use tools to illustrate your ideas (wireframes, database schemas, etc.).
 
-- Your pitch can be:
-	- Accepted
-	- Accepted with amendments
-	- Rejected
+- Once this is done, the panel give your project one of the following:
+	- Accepted (You are able to start work on your project)
+	- Accepted with amendments (You are able to start providing you made the changes the panel has requested)
+	- Rejected (You will need to develop a new pitch)
 > We ask that you have a slightly shorter second pitch in case your first one is fully rejected!
 
 </details></td>
@@ -143,7 +144,7 @@ _Pitches take place on the Monday of Week 1._
 Prepare a **10 minute presentation** to include the following topics.
 
 > :exclamation: You are unlikely to have time to include all the recommended details in the presentation but be prepared to take further questions on these topics.
-
+- You will need to include these elements in your presentation but not necessarily in this order. Think about what will work best for your presentation
 <table>
 
 <tr>
@@ -192,7 +193,7 @@ Prepare a **10 minute presentation** to include the following topics.
 - Recording tips to consider:
     + Learn your 'choreography'!
     + Have form content ready to copy and paste.
-    + Use realistic data! No `testuser`s or `dummy post content blah blah blah`!
+    + Use realistic data! No `test-user`s or `dummy post content blah blah blah`!
     + Close your 64 browser tabs!
     + Hide your browser bookmark bar.
 - Editing tips to consider:
@@ -584,3 +585,4 @@ See [Requirements & Guidelines > Technical Guidelines](#requirements--guidelines
 ## Additional Resources
 
 - [Tips for working in small-group projects](https://gist.github.com/getfutureproof-admin/fbbefeccf62cb3e120adae8d20a2ac56)
+
