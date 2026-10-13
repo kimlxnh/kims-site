@@ -6,7 +6,7 @@ Write a JavaScript program that processes a list of daily temperatures. Use seve
 
 Use Git branches to develop each feature separately, then merge all the branches into `main`.
 
-## Program requirements
+## Problem definition
 
 Start with this array:
 
@@ -23,6 +23,21 @@ Your program should:
 - Print a summary counting the cold, mild, and hot days.
 
 Write the functions and decide how they work together. The steps below guide you through the Git workflow, not the implementation.
+
+## Sample output
+
+    Day 1: 8°C = 46.4°F — cold
+    Day 2: 15°C = 59°F — mild
+    Day 3: 24°C = 75.2°F — hot
+    Day 4: 31°C = 87.8°F — hot
+    Day 5: 12°C = 53.6°F — mild
+    Day 6: 27°C = 80.6°F — hot
+    Day 7: 19°C = 66.2°F — mild
+
+    Summary:
+    Cold: 1 day
+    Mild: 3 days
+    Hot: 3 days
 
 ## Git workflow
 
@@ -77,7 +92,7 @@ Switch back to `main` and merge the branch:
 
 ### 4. Create and merge the summary branch
 
-Start another branch from the updated `main`:
+Start another branch from `main`:
 
     git switch -c feature/summary
 
@@ -93,7 +108,7 @@ Switch back to `main` and merge the branch:
 
 ### 5. Create and merge the report-loop branch
 
-Start the final feature branch from the updated `main`:
+Start the final feature branch from `main`:
 
     git switch -c feature/report-loop
 
@@ -109,13 +124,7 @@ Switch back to `main` and merge the branch:
 
 ### 6. Test the finished program
 
-Run the program while on `main`. Check that the output includes each day’s Celsius and Fahrenheit temperatures, its category, and the final category counts.
-
-The expected results are:
-
-- Cold: 1 day
-- Mild: 3 days
-- Hot: 3 days
+Run the program while on `main`. Check that the output matches the sample output above.
 
 ## Helpful Git checks
 
