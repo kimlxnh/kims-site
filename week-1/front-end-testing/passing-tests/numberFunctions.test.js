@@ -1,5 +1,5 @@
 const each = require('jest-each').default;
-const { getBigger, getSmallest, countValue } = require("./numberFunctions.js");
+const {getBigger, getSmallest, countValue} = require("./numberFunctions.js");
 
 describe("getBigger", () => {
 

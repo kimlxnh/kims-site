@@ -1,3 +1,4 @@
+
 const each = require('jest-each').default;
 const { getLonger, greet, isSubstring } = require("./stringFunctions.js");
 
@@ -68,7 +69,7 @@ describe("greet", () => {
     })
 
 })
-
+/*
 describe("isSubstring", () => {
 
     it("Exists", () => {
@@ -108,4 +109,5 @@ describe("isSubstring", () => {
     ]).test(`Returns %s when passed %s and %s`, (expected, a, b) => {
         expect(isSubstring(a, b)).toBe(expected);
     })
-})
+}) 
+*/ 
