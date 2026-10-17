@@ -4,8 +4,8 @@
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 20px;
+  padding: 1px 20px;
+  font-size: 15x;
 }
 
 form {
@@ -61,3 +61,20 @@ input[type=text] {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+h1, h2 {
+  text-align:center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.img-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd8-NdVPZub4fyq9HF9byMMCcXZQ5Jv8nN-lUVmE_SIw&s=10");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
