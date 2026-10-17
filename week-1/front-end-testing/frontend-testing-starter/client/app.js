@@ -20,7 +20,7 @@ const updateTitle = (e) => {
 
 const changeMode = () => {
   document.querySelector('body')
-    .classList.add('dark-mode');
+    .classList.toggle('dark-mode');
 }
 
 btn.addEventListener('click', changeTitle)

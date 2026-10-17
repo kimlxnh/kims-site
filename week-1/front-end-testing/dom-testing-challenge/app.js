@@ -1,6 +1,6 @@
-
-const btn = document.querySelector('button');
 const form = document.querySelector('#email-form');
+const h1 = document.querySelector('h1');
+const input = document.querySelector('#email');
 
 const changeTitle = () => {
   const h1 = document.querySelector('h1');
@@ -8,12 +8,13 @@ const changeTitle = () => {
 }
 
 const updateTitle = (e) => {
-  e.preventDefault()
-  const h1 = document.querySelector('h1');
-  const input = document.querySelector('#name');
-
+  e.preventDefault();
   h1.textContent = input.value;
-  input.value = ''
+  input.value = '';
+};
+
+if (form) {
+  form.addEventListener('submit', updateTitle);
 }
 
 btn.addEventListener('click', changeTitle)

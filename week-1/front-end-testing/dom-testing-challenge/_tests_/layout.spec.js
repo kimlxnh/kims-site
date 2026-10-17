@@ -14,7 +14,7 @@ describe('index.html', () => {
   })
   
   it('has a button', () => {
-    const btn = document.querySelector('button')
+    const btn = document.querySelector('form button')
     expect(btn).toBeTruthy
     expect(btn.innerHTML).toBe("Submit")
   })
@@ -29,7 +29,7 @@ describe('index.html', () => {
     const form = document.querySelector('form')
     const h1 = document.querySelector('h1')
   
-    const input = document.querySelector('#name')
+    const input = document.querySelector('#email')
     input.value = 'Kim'
     form.dispatchEvent(new dom.window.Event('submit'));
   
